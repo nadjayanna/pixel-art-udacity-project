@@ -11,3 +11,9 @@ body {
   background-color: #fce0ee;
   text-align: center;
 }
+
+h1 {
+	font-family: 'Monoton', cursive;
+	margin: 16px;
+	font-size: 40px;
+}

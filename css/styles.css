@@ -46,7 +46,7 @@ button {
 	min-width: 48px;
 }
 
-#colors-menu{
+#colors-menu {
 	margin: 16px 0 16px 0;
 }
 
@@ -65,4 +65,23 @@ tr {
 
 td {
     width: 20px;
+}
+
+@media screen and (min-width: 768px){
+
+	h1 {
+		font-size: 72px;
+	}
+	tr {
+    height: 30px;
+	}
+
+	td {
+    width: 30px;
+	}
+}
+
+/*Create border for the transparent last-child*/
+.simplecolorpicker span.color:last-child {
+  border: 1px solid #3d4954;
 }

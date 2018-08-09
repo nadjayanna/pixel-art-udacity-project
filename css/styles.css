@@ -1,0 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 95vh;
+  margin: 0;
+  padding: 0;
+  background-color: #fce0ee;
+  text-align: center;
+}

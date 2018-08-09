@@ -41,3 +41,7 @@ h1 {
 button {
 	min-width: 48px;
 }
+
+#colors-menu{
+	margin: 16px 0 16px 0;
+}

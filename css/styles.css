@@ -17,3 +17,27 @@ h1 {
 	margin: 16px;
 	font-size: 40px;
 }
+
+.form-group {
+	display: inline-flex;
+	padding: 0;
+	margin: 0px;
+}
+
+#gridHeight {
+	margin: 0 12px 0 8px;
+	padding: 6px;
+}
+
+#gridWidth {
+	margin: 0 16px 0 8px;
+	padding: 6px;
+}
+
+.row {
+	text-align:center;
+}
+
+button {
+	min-width: 48px;
+}

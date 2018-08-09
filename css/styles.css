@@ -18,6 +18,10 @@ h1 {
 	font-size: 40px;
 }
 
+.container{
+	height: 100%;
+}
+
 .form-group {
 	display: inline-flex;
 	padding: 0;
@@ -44,4 +48,21 @@ button {
 
 #colors-menu{
 	margin: 16px 0 16px 0;
+}
+
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
 }

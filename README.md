@@ -3,5 +3,5 @@ Optional project for Udacity Web Front-End Nanodegree to build a single-page web
 
 ## project tools
 For this project I used the color picker provider by:
-https://github.com/tkrotoff/jquery-simplecolorpicker
+https://github.com/tkrotoff/jquery-simplecolorpicker by Tanguy Krotoff <tkrotoff@gmail.com>
 

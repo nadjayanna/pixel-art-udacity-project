@@ -12,16 +12,14 @@ body {
   text-align: center;
 }
 
+/** Header **/
 h1 {
 	font-family: 'Monoton', cursive;
 	margin: 16px;
 	font-size: 40px;
 }
 
-.container{
-	height: 100%;
-}
-
+/** Form **/
 .form-group {
 	display: inline-flex;
 	padding: 0;
@@ -46,24 +44,24 @@ button {
 	min-width: 48px;
 }
 
+/** color picker **/
 #colors-menu {
 	margin: 16px 0 16px 0;
 }
 
-tr,
-td {
-    border: 1px solid black;
+/*Create border for the transparent last-child*/
+.simplecolorpicker span.color:last-child {
+  border: 1px solid #3d4954;
 }
 
+/** grid **/
 table {
     margin: 0 auto;
 }
 
-tr {
+.square {
+    border: 1px solid black;
     height: 20px;
-}
-
-td {
     width: 20px;
 }
 
@@ -72,16 +70,8 @@ td {
 	h1 {
 		font-size: 72px;
 	}
-	tr {
+	.square {
     height: 30px;
-	}
-
-	td {
     width: 30px;
-	}
-}
-
-/*Create border for the transparent last-child*/
-.simplecolorpicker span.color:last-child {
-  border: 1px solid #3d4954;
+  }
 }

@@ -14,39 +14,39 @@ body {
 
 /** Header **/
 h1 {
-	font-family: 'Monoton', cursive;
-	margin: 16px;
-	font-size: 40px;
+  font-family: 'Monoton', cursive;
+  margin: 16px;
+  font-size: 40px;
 }
 
 /** Form **/
 .form-group {
-	display: inline-flex;
-	padding: 0;
-	margin: 0px;
+  display: inline-flex;
+  padding: 0;
+  margin: 0px;
 }
 
 #gridHeight {
-	margin: 0 12px 0 8px;
-	padding: 6px;
+  margin: 0 12px 0 8px;
+  padding: 6px;
 }
 
 #gridWidth {
-	margin: 0 16px 0 8px;
-	padding: 6px;
+  margin: 0 16px 0 8px;
+  padding: 6px;
 }
 
 .row {
-	text-align:center;
+  text-align:center;
 }
 
 button {
-	min-width: 48px;
+  min-width: 48px;
 }
 
 /** color picker **/
 #colors-menu {
-	margin: 16px 0 16px 0;
+  margin: 16px 0 16px 0;
 }
 
 /*Create border for the transparent last-child*/
@@ -60,17 +60,17 @@ table {
 }
 
 .square {
-    border: 1px solid black;
-    height: 20px;
-    width: 20px;
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
 }
 
 @media screen and (min-width: 768px){
 
-	h1 {
-		font-size: 72px;
-	}
-	.square {
+  h1 {
+    font-size: 72px;
+  }
+  .square {
     height: 30px;
     width: 30px;
   }

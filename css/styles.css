@@ -56,7 +56,7 @@ button {
 
 /** grid **/
 table {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .square {
@@ -70,6 +70,7 @@ table {
   h1 {
     font-size: 72px;
   }
+  
   .square {
     height: 30px;
     width: 30px;
